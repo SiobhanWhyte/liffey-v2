@@ -8,8 +8,7 @@ body {
     font-size: 62.5%;
     font-size: 10px;
 }
-/*-- Inspiration taken from abdo steif -->
-/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
+
 
 /* Navbar section */
 
@@ -25,18 +24,9 @@ body {
     float: left;
     width: auto;
     height: auto;
-    padding-left: 3rem;
+    
 }
 
-.nav div.logo a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 2.5rem;
-}
-
-.nav div.logo a:hover {
-    color: #00E676;
-}
 
 .nav div.main_list {
     height: 65px;
@@ -76,7 +66,7 @@ body {
 .home {
     width: 100%;
     height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
+    background-image: url(./images/brush.jpeg);
     background-position: center top;
 	background-size:cover;
 }
@@ -143,9 +133,63 @@ body {
     }
 }
 
+/*gallery section*/
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5rem;
+    background: transparent;
+    padding: 15px;
+  }
+  .gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    transition: all 100ms ease-out;
+  }
+  .gallery img:hover {
+    transform: scale(1.04);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+
+  /*Button */
+  .wrap {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button {
+    width: 160px;
+    height: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    }
+  
+  .button:hover {
+    background-color: rgb(53, 200, 236);
+    box-shadow: 0px 15px 20px rgba(2, 245, 245, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
 
 /* Animation */
-/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
 
 .navTrigger {
     cursor: pointer;
