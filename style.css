@@ -20,13 +20,6 @@ body {
     text-align: center;
 }
 
-.nav div.logo {
-    float: left;
-    width: auto;
-    height: auto;
-    
-}
-
 
 .nav div.main_list {
     height: 65px;
@@ -57,7 +50,7 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #22d8f0;
 }
 
 
@@ -68,7 +61,8 @@ body {
     height: 100vh;
     background-image: url(./images/brush.jpeg);
     background-position: center top;
-	background-size:cover;
+    background-size:cover;
+    position:fixed;
 }
 
 .navTrigger {
