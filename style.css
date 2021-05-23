@@ -10,20 +10,23 @@ body {
 }
 
 
+
 /* Navbar section */
 
 .nav {
     width: 100%;
     height: 65px;
-    position: fixed;
+    position: relative;
     line-height: 65px;
     text-align: center;
+    background-color: black;
 }
 
 
 .nav div.main_list {
     height: 65px;
     float: right;
+    
 }
 
 .nav div.main_list ul {
@@ -33,13 +36,15 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
+
 }
 
 .nav div.main_list ul li {
     width: auto;
     height: 65px;
     padding: 0;
-    padding-right: 3rem;
+    padding-right: 4rem;
+    
 }
 
 .nav div.main_list ul li a {
@@ -56,7 +61,7 @@ body {
 
 /* HOME MAIN PAGE */
 
-.home {
+.homepage {
     width: 100%;
     height: 100vh;
     background-image: url(./images/brush.jpeg);
@@ -65,32 +70,24 @@ body {
     
 }
 
-.middle {
-    padding-top: 20rem;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
 
 h1 {
 font-size: 10rem;
 color: #fff;
+margin: 0;
+text-align: center;
+padding: 10rem 0 15rem 0;
 }
 
-.logo {
-    width: 20rem;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .navTrigger {
     display: none;
 }
 
 .nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    
+    padding-bottom: 0;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
 }
@@ -106,7 +103,7 @@ color: #fff;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 5rem;
     background: transparent;
-    padding: 15px;
+   
   }
   .gallery img {
     width: 100%;
@@ -186,7 +183,7 @@ color: #fff;
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: #111;
+        background-color: rgb(5, 5, 5);
         /*same background color of navbar*/
         background-position: center top;
     }
@@ -203,6 +200,10 @@ color: #fff;
     .nav div.media_button {
         display: block;
     }
+    .nav {
+        padding-top: 60px;
+        background-color: rgb(194, 191, 191);
+    }
 }
 
 
@@ -214,7 +215,7 @@ color: #fff;
     height: 25px;
     margin: auto;
     position: absolute;
-    right: 30px;
+    right: 50px;
     top: 0;
     bottom: 0;
 }
@@ -399,6 +400,6 @@ color: #fff;
 
 .affix {
     padding: 0;
-    background-color: #111;
+    background-color: rgb(3, 3, 3);
 }
 
