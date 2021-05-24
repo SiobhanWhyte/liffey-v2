@@ -67,6 +67,7 @@ body {
     background-image: url(./images/brush.jpeg);
     background-position: center top;
     background-size:cover;
+    background-repeat: no-repeat;
     
 }
 
@@ -102,15 +103,15 @@ padding: 10rem 0 15rem 0;
     transition: all 0.4s ease;
 }
 
- table {
+table {
     width:30%;
-    margin:4rem auto;
+    margin:4rem 3rem 6rem 3rem;
 }
 table tr td {
     text-align:center;
 }
 .social {
-    color:#fff;
+    color:rgb(238, 17, 17);
     font-size:35px;
     border-radius:50%;
     transition:0.4s ease-in-out;
