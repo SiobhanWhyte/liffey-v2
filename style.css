@@ -150,6 +150,7 @@ table tr td {
     display:block;
     text-align:center;
     margin-top:.33em;
+    font-size: 3rem;
 }
 .openinghourscontent button {
     width: 280px;
@@ -170,14 +171,14 @@ table tr td {
     margin-top: 5rem;
 }
 button:hover {
-    background-color: rgb(53, 200, 236);
-    box-shadow: 0px 15px 20px rgba(2, 245, 245, 0.4);
+    background-color: #1115e9;
+    box-shadow: 0px 15px 20px rgba(30, 94, 179, 0.4);
     color: #fff;
     transform: translateY(-7px);
   }
 
 .today {
-    color: #1192e9;
+    color: #1115e9;
 }
 .opening-hours-table tr td:first-child {
     font-weight:bold;
@@ -193,19 +194,21 @@ button:hover {
     content:" open during these hours:";
 }
 .open {
-    color: white;
+    color: black;
+    font-size: 2rem;
 }
 .open:after {
     content:" Open";
-    color: rgb(48, 204, 0);
+    color: rgb(55, 143, 29);
 }
 .closed:after {
     content:" Closed";
-    color: red;
+    color: rgb(175, 11, 11);
 }
 .opening-hours-table tr td {
     padding:5px;
     text-align: center;
+    font-size: 2rem;
 }
 
  
