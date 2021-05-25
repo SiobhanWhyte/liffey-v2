@@ -7,12 +7,13 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 <body>
     <nav class="nav">
         <div class="container">
-           
+            <div class="logo-nav"> <a href="index.html"> <h3>Liffey </br>Barber</h3> </a></div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
                     <li><a href="./about.html">About</a></li>
@@ -29,27 +30,55 @@
         </div>
     </nav>
 
-    <section> 
-            <p>
-                At Liffey Barbers we pride ourselves on being a well established modern barbershop with an old school twist. Professional, friendly sevices and the best in town!
-            </p>
-            <h2>Our Team</h2>
-            <p><img class="team-profile" src="images/edel.jpeg" alt="profile edel"> </p>
-            <h3>Edel</h3>
-            <p> 
-                Owning her own business for over eleven years now and managing barbershops throughout her career which spans across three decades Edel is one of the most experiences barbers in the industry and prides herself on her customer service. Liffey barber boast of being the best barbers in town.
-            </p>
-            <p><img class="team-profile" src="images/joey.jpeg" alt="profile joey"> </p> 
-            <h3>Joey</h3>
-            <p>
-                Joey is our senior barber. He has been apart of the team since 2017. Big personality and an expert with the clippers, from fades to the more classic cut, Joey has got you covered.
-            </p>
-            <p> <img class="team-profile" src="images/amber.jpeg" alt="profile amber"> </p>
-            <h3>Amber</h3>
-            <p>
-                Amber is our newest member to the team, she is following Edel in an industry usually dominated by the boys but proving herself to be as talented. 
-            </p>
-    </section>
+    <div class="outer-wrap">
+        
+        <div class="content">
+          
+          <main class="main-area">
+            <section class="cards">
+              <article class="card">
+                      <a href="#">
+                          <picture class="thumbnail">
+                              <img src="images/edel.jpeg">
+                          </picture>
+                          <div class="card-content">
+                              <h2>Edel</h2>
+                              <p>Owning her own business for over eleven years now and managing barbershops throughout her career which spans across three decades Edel is one of the most experiences barbers in the industry and prides herself on her customer service. Liffey barber boast of being the best barbers in town.</p>
+                          </div><!-- .card-content -->
+                      </a>
+                  </article><!-- .card -->
+  
+                  <article class="card">
+                      <a href="#">
+                          <picture class="thumbnail">
+                              <img src="./images/joey2.jpeg">
+                          </picture>
+                          <div class="card-content">
+                              <h2>Joey</h2>
+                              <p>Joey is our senior barber. He has been apart of the team since 2017. Big personality and an expert with the clippers, from fades to the more classic cut, Joey has got you covered.</p>
+                          </div><!-- .card-content -->
+                      </a>
+                  </article><!-- .card -->
+  
+                  <article class="card">
+                      <a href="#">
+                          <picture class="thumbnail">
+                              <img src="./images/amber.jpeg">
+                          </picture>
+                          <div class="card-content">
+                              <h2>Amber</h2>
+                              <p>Amber is our newest member to the team, she is following Edel in an industry usually dominated by the boys but proving herself to be as talented. </p>
+                          </div><!-- .card-content -->
+                      </a>
+                  </article><!-- .card -->
+  
+                  
+              
+              </section><!-- .cards -->
+          </main>
+        </div><!-- .content -->
+      </div><!-- .outer-wrap -->
+  
 
 <!-- Jquery needed -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

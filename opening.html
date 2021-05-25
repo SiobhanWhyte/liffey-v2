@@ -8,11 +8,12 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
 </head>
 <body>
     <nav class="nav">
         <div class="container">
-            
+            <div class="logo-nav"> <a href="index.html"> <h3>Liffey </br>Barber</h3> </a></div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
                     <li><a href="./about.html">About</a></li>
@@ -30,17 +31,17 @@
     </nav>
 
     
-        <div style="height: 1000px">
-            <div id="about_container" class="container">
-                <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
-                <h1>About Us</h1>
+        <div class="opening-background">
+            
                 <section class="openinghours">
                     <div class="openinghourscontent section">
+
                         <div class="header">
                              <h2>Opening Hours</h2>
                  <span id="open-status"><small class="openorclosed">We are</small></span>
                 
                         </div>
+
                         <table class="opening-hours-table">
                             <tr id="Monday" itemprop="openingHours" title="Open Monday at 9am to 6pm">
                                 <td>Monday</td>

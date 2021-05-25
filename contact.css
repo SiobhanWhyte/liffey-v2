@@ -37,7 +37,7 @@ border-color: #071c34;
 }
 .contact-info-icon i {
 font-size: 48px;
-color: #fda40b;
+color: #fd4f0b;
 }
 .contact-info-text p{margin-bottom:0px;}
 .contact-info-text h2 {
@@ -78,7 +78,7 @@ padding: 12px 16px;
 border-radius: 4px;
 }
 .single-input-fieldsbtn input[type="submit"] {
-background: #fda40b none repeat scroll 0 0;
+background: #fd4f0b none repeat scroll 0 0;
 color: #fff;
 display: inline-block;
 font-weight: 600;
