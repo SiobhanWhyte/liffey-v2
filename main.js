@@ -7,7 +7,7 @@ $('.navTrigger').click(function () {
 });
 
 
-/*opening hrs section*/
+/*OPENING PAGE*/
 
 var currentDate = new Date();
 var weekday = [];
@@ -50,3 +50,6 @@ if (timeNow >= openTimex && timeNow <= closeTimex) {
 } else {
     $(".openorclosed").toggleClass("closed");
 }
+
+/*CONTACT PAGE*/
+
