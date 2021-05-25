@@ -132,12 +132,36 @@ body {
      footer {
         background-image: linear-gradient(90deg, #29323c 0%, #485563 100%);
         text-align: center;
-   		padding-bottom: 15px;
+   		height: 20px;
      }
 
      h4 {
          color:grey;
      }
+
+     table {
+        
+        margin:0 auto;
+        padding-top: 1rem;
+        
+    }
+    table tr td {
+        text-align:center;
+    }
+    
+    .social {
+        color: white;
+        font-size:35px;
+        border-radius:50%;
+        transition:0.4s ease-in-out;
+        margin:0px 10px;
+        text-align:center;
+    }
+    
+    .social:hover { 
+        cursor: pointer;
+        color:rgb(53, 56, 236);
+    }
 
     /* Animation */
 

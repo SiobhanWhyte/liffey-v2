@@ -83,28 +83,7 @@ padding: 10rem 0 10rem 0;
     
 
 
-table {
-    width:30%;
-    margin:0 auto;
-    padding-top: 1rem;
-    
-}
-table tr td {
-    text-align:center;
-}
-.social {
-    color: white;
-    font-size:35px;
-    border-radius:50%;
-    transition:0.4s ease-in-out;
-    margin:0px 10px;
-    text-align:center;
-}
 
-.social:hover { 
-    cursor: pointer;
-    color:rgb(53, 56, 236);
-}
 
 
 /*GALLERY PAGE*/
