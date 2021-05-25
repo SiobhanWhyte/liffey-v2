@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 1rem;
   }
   
   .button {
@@ -53,8 +54,8 @@ body {
 .homepage {
     width: 100%;
     height: 100vh;
-    background-image: url(./images/brush.jpeg);
-    background-position: center top;
+    background-image: url(./images/liffeyjackets.jpeg);
+    background-position: center center;
     background-size:cover;
     background-repeat: no-repeat;
     
@@ -85,8 +86,8 @@ padding: 10rem 0 10rem 0;
 table {
     width:30%;
     margin:0 auto;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 1rem;
+    
 }
 table tr td {
     text-align:center;
