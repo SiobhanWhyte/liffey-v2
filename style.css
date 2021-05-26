@@ -71,13 +71,14 @@ padding: 10rem 0 10rem 0;
 }
 
 .logo {
-    width: 250px;
+    width: 150px;
     height: auto;
    
 }
 
 .logo-position{
-    text-align: center;
+    text-align: left;
+    position: inline-block;
 }
 
     
