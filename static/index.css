@@ -106,15 +106,15 @@ table tr td {
 /*GALLERY PAGE*/
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
     gap: 5rem;
-    background: transparent;
-   
+    padding: 3rem 2rem 3rem 2rem;
   }
+  
   .gallery img {
     width: 100%;
     height: auto;
-    display: block;
+    display:flex;
     -webkit-filter: grayscale(1);
     filter: grayscale(1);
     transition: all 100ms ease-out;
@@ -232,4 +232,9 @@ button:hover {
     .openinghours {
         margin-top: 0;
 }
+
+.gallery {
+    grid-template-columns: none;
+}
+
 }
