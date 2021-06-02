@@ -32,7 +32,7 @@ body {
     line-height: 25px;
     color: #fff;
     font-family: 'Bebas Neue', cursive;
-    padding: 1rem 0 2rem 2rem;
+    padding: 1rem 0 0 2rem;
     
 }
 
@@ -476,5 +476,9 @@ button:hover {
     @media screen and (min-width: 600px) {
     .social-media {
         padding: 5rem 0 0 5rem;
+    }
+
+    .logo-nav h3 {
+        padding-bottom: 3rem;
     }
 }
