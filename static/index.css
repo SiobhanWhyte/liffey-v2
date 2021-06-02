@@ -106,9 +106,9 @@ table tr td {
 /*GALLERY PAGE*/
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 3fr));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 5rem;
-    padding: 3rem 2rem 3rem 2rem;
+    padding: 5rem 10rem 5rem 10rem;
   }
   
   .gallery img {
@@ -235,6 +235,11 @@ button:hover {
 
 .gallery {
     grid-template-columns: none;
+    padding: 2rem 3rem;
+    
 }
+ .gallery img {
+    -webkit-filter: none;
+ }
 
 }
