@@ -372,7 +372,7 @@ height:auto;
 ul {
 	list-style: none;
 	color: #fff;
-	font-size: 15px;
+	font-size: 16px;
 	letter-spacing: 0.5px;	
  }
 
@@ -384,7 +384,7 @@ ul a {
 }
 
 ul a:hover {
-	color: #fd4f0b;;
+	color: #f5f2f1;;
 }
 
 ul li {
@@ -475,6 +475,6 @@ button:hover {
     
     @media screen and (min-width: 600px) {
     .social-media {
-        padding-top: 5rem;
+        padding: 5rem 0 0 5rem;
     }
 }
