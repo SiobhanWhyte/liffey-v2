@@ -32,7 +32,7 @@ body {
     line-height: 25px;
     color: #fff;
     font-family: 'Bebas Neue', cursive;
-    padding: 1rem 0 0 2rem;
+    padding: 2rem 0 0 2rem;
     
 }
 
@@ -471,6 +471,9 @@ button:hover {
 	.footer-items {
 		width: 100%;
     }
+    .logo-nav h3 {
+        padding: 0 0 0 2rem;
+    }
 }
     
     @media screen and (min-width: 600px) {
@@ -478,7 +481,5 @@ button:hover {
         padding: 5rem 0 0 5rem;
     }
 
-    .logo-nav h3 {
-        padding-bottom: 3rem;
-    }
+   
 }
