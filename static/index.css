@@ -130,13 +130,11 @@ table tr td {
 .openinghours {
     font-family:'Oswald', sans-serif;
     border-radius:4px;
-    margin: 10rem 50rem;
     box-shadow: 0 0 10px black;
-    padding:5rem 5rem;
+    padding:10rem 5rem;
     overflow: hidden;
     display: grid;
     background-color: rgb(251, 249, 252);
-    max-width: 80rem;
     justify-content: center;
     
 }
