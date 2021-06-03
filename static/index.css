@@ -54,7 +54,7 @@ body {
 .homepage {
     width: 100%;
     min-height: 100vh;
-    background-image: linear-gradient(0deg,rgba(0,0,0,0.4),rgba(0,0,0,0.6)), url(./images/interior1.jpg);
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.1),rgba(0,0,0,0.7)), url(./images/interior1.jpg);
    
     background-position: center center;
     background-size:cover;
