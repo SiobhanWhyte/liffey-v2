@@ -15,7 +15,7 @@ body {
 
 .nav {
     width: 100%;
-    height: 75px;
+    height: 110px;
     position: relative;
     line-height: 65px;
     text-align: center;
@@ -23,19 +23,13 @@ body {
     
 }
 
-.logo-nav h3 {
-    text-align: left;
-    margin: 0;
+.logo-nav img {
     display: inline;
     float: left;
-    font-size: 3rem;
-    line-height: 25px;
-    color: #fff;
-    font-family: 'Bebas Neue', cursive;
-    padding: 2rem 0 0 2rem;
-    
+    padding-left: 10px;
+    width: 110px;
+    height:auto;
 }
-
 
 
 .nav div.main_list {
@@ -125,7 +119,8 @@ body {
         display: block;
     }
     .nav {
-        padding-top: 60px;
+        padding: 20px 0;
+        
         
     }
    
@@ -460,9 +455,9 @@ button:hover {
 
 @media screen and (max-width: 1275px) {
 	.footer-items {
-        width: 30%;
-        
-	}
+        width: 30%; 
+    }
+    
 }
 
 /* for mobile screen view */
@@ -471,15 +466,15 @@ button:hover {
 	.footer-items {
 		width: 100%;
     }
-    .logo-nav h3 {
-        padding: 0 0 0 2rem;
-    }
+    
+
+    
 }
     
     @media screen and (min-width: 600px) {
     .social-media {
         padding: 5rem 0 0 5rem;
     }
-
+    
    
 }

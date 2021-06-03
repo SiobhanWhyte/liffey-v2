@@ -129,17 +129,18 @@ table tr td {
 
 .openinghours {
     font-family:'Oswald', sans-serif;
-    border-radius:4px;
-    box-shadow: 0 0 10px black;
     padding:10rem 5rem;
     overflow: hidden;
     display: grid;
-    background-color: rgb(251, 249, 252);
+    background-color: white;
     justify-content: center;
     
 }
 .openinghourscontent {
     justify-content: center;
+    width: 580px;
+    background-color: rgb(247, 247, 252);
+    border-radius: 45px;
 }
 .openinghourscontent h2 {
     display:block;
@@ -163,7 +164,7 @@ table tr td {
     transition: all 0.3s ease 0s;
     cursor: pointer;
     outline: none;
-    margin-top: 5rem;
+    margin: 5rem 16rem 2rem 16rem;
 }
 button:hover {
     background-color: #fd4f0b;;
@@ -183,7 +184,8 @@ button:hover {
     display:block;
     margin-top:-1em;
     text-align:center;
-    border:solid lightgrey 3px;
+    text-decoration: underline;
+    
     font-size: 1.5rem;
 }
 .openorclosed:after {
