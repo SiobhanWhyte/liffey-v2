@@ -261,7 +261,7 @@ button:hover {
 .scroll-prompt {
 	position: fixed;
 	z-index: 998;
-	bottom: -80px;
+	
 	left: 50%;
 	margin-left: -80px;
 	width: 160px;
