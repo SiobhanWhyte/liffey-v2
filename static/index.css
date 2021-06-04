@@ -7,7 +7,7 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 62.5%;
     font-size: 10px;
-    background: white;
+    background: black;
 }
 
 /* BUTTON */
@@ -143,7 +143,6 @@ table tr td {
     padding:10rem 5rem;
     overflow: hidden;
     display: grid;
-    background-color: white;
     justify-content: center;
     
 }
