@@ -64,6 +64,10 @@ h1, .word {
     text-align: center;
 }
 
+iframe {
+    text-align: center;
+}
+
 h1 {
 font-size: 12rem;
 padding-top: 10rem;
