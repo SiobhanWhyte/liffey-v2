@@ -53,7 +53,7 @@ if (timeNow >= openTimex && timeNow <= closeTimex) {
 
 /*HOMEPAGE TYPE LIFFEY BARBER*/
 
-var words = ['SCROLL DOWN TO BOOK APPOINTMENT', 'WE LOOK FORWARD TO SEEING YOU SOON', 'Lorem ipsum dolor sit amet', ' consectetur adipiscing elit', 'sed do eiusmod tempor incididunt'],
+var words = ['SCROLL DOWN TO BOOK APPOINTMENT', 'WE LOOK FORWARD TO SEEING YOU SOON'],
     part,
     i = 0,
     offset = 0,
