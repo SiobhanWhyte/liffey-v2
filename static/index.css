@@ -293,7 +293,7 @@ button:hover {
 		border-bottom: 8px solid #bebebe;
 		transform: rotate(45deg) translateZ(1px);
 	}
-}
+
 
 @keyframes opacity {
 	0% {
