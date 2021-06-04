@@ -10,10 +10,6 @@ body {
     background: white;
 }
 
-
-
-
-
 /* BUTTON */
 .wrap {
     height: 30%;
@@ -61,15 +57,25 @@ body {
     
 }
 
+h1, .word {
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
 
 h1 {
 font-size: 12rem;
-color: #fff;
-margin: 0;
-text-transform: uppercase;
-text-align: center;
-padding: 10rem 0 8rem 0;
+padding-top: 10rem;
 }
+
+.word {
+    margin: auto;
+    text-shadow: 5px 2px #222324, 2px 4px #222324, 3px 5px #222324;
+    font-size: 2rem;
+    padding: 2rem 0 1rem 0;
+  }
+
 
 .logo {
     width: 150px;
@@ -229,7 +235,7 @@ button:hover {
 
     h1 {
         font-size: 5rem;
-        padding: 20rem 0 3rem 0;
+        padding: 17rem 0 3rem 0;
         max-width: 35rem;
         margin: 0 auto;
     }
@@ -261,8 +267,9 @@ button:hover {
 }
 
 .scroll-prompt {
-	position: fixed;
-	z-index: 998;
+	position: absolute;
+    z-index: 998;
+    bottom: -80px;
 	left: 50%;
 	margin-left: -80px;
 	width: 160px;
