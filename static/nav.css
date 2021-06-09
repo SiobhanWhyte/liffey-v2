@@ -125,9 +125,7 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
         display: block;
     }
     .nav {
-        padding: 20px 0;
-        
-        
+        padding: 20px 0;  
     }
    
 
@@ -335,6 +333,10 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
     background: -webkit-linear-gradient(to bottom,#000000, #434343);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom,#000000, #434343); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	display: block;
+ }
+
+ h4 {
+     color: white;
  }
 
  .inner-footer {
