@@ -81,7 +81,7 @@ body {
     transition: all 0.4s ease;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
     .navTrigger {
         display: block;
     }
@@ -349,7 +349,6 @@ background: linear-gradient(to left, #434343, #000000); /* W3C, IE 10+/ Edge, Fi
  }
 
 .footer-items {
-	width: 30%;
 	padding: 10px 20px;
 	box-sizing: border-box;
     color: #fff;
@@ -465,7 +464,7 @@ button:hover {
 
 @media screen and (max-width: 1275px) {
 	.footer-items {
-        width: 30%; 
+        padding-right: 20px;
     }
     
 }
@@ -474,7 +473,7 @@ button:hover {
 
 @media screen and (max-width: 660px) {
 	.footer-items {
-		width: 100%;
+		
     }
     
 
