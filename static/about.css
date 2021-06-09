@@ -93,51 +93,25 @@ img {
 
 
 
-/* Flexbox stuff */
+/* Responsive */
 
 @media screen and (min-width: 40em) {
-    .cards {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-wrap: wrap;
-            -ms-flex-wrap: wrap;
-                flex-wrap: wrap;
-        -webkit-justify-content: space-between;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        margin-top: -1em;
-    }
-
     .card {
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex: 0 1 calc(50% - .5em);
-            -ms-flex: 0 1 calc(50% - .5em);
-                flex: 0 1 calc(50% - .5em);
-        margin-bottom: 1em;
+        width: 70rem;
+        margin: 0 auto;
     }
+    img {
+        width:100%;
+        height:auto;}
 }
 
 @media screen and (max-width: 39.9em) {
   
-  .main-area {padding: 0em;}
-  .card {margin-bottom: 0em;}	
+  .main-area {padding: 2em;}
+  .card {margin-bottom: 2em;}	
   img {
       width:100%;
       height:auto;}
 }
 
-@media screen and (min-width: 60em) {
-    .cards {
-        margin-top: inherit;
-    }
-    
-    .card {
-        -webkit-flex: 0 1 calc(33% - 1em);
-            -ms-flex: 0 1 calc(33% - 1em);
-                flex: 0 1 calc(33% - 1em);
-        margin-bottom: 2em;
-    }
-}
+
