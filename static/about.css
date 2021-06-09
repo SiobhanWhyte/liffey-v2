@@ -4,16 +4,15 @@ body {
 	color: #404040;
 	font-family: 'Oswald', sans-serif;
 	line-height: 1.5;
-    background: hsl(0, 0%, 96%);
+    background: hsl(0, 0%, 2%);
 }
 
-h1 {
+h3 {
   color: rgb(10, 10, 10);
   letter-spacing: 2px;
-  font-size: 25rem;
+  font-size: 3rem;
   text-align: center;
   margin-top: 20px;
-  font-style: italic;
 }
 
 .main-area {padding: 2em;}
@@ -99,6 +98,7 @@ img {
     .card {
         width: 70rem;
         margin: 0 auto;
+        margin-bottom: 4em;
     }
     img {
         width:100%;

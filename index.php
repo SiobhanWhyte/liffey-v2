@@ -10,31 +10,13 @@
     <link rel="stylesheet" href="static/index.css">
     <link rel="stylesheet" href="static/nav.css">
 </head>
-<body>
-    <nav class="nav">
-     
-        <div class="container">
-          
-            <div class="logo-nav"> <a href="/index.html"> <img src="static/images/logo.png" alt="logo"></a></div>
-            
 
-            <div id="mainListDiv" class="main_list">
-                <ul class="navlinks">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="opening.html">Opening Hours</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="https://goo.gl/maps/h4s71jkT3gWhHDSc6" target="_blank">Location</a></li>
-                </ul>
-            </div>
-            <span class="navTrigger">
-                <i></i>
-                <i></i>
-                <i></i>
-            </span>
-        </div>
-    </nav>
+<body>
+   <!--Navigation bar-->
+   <?php include "./nav.php"; ?>
+   
+
+<!--end of Navigation bar-->
     
     <div class="homepage">
             <h1>Welcome to </br> Liffey Barber</h1>
